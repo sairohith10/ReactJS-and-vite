@@ -1,0 +1,13 @@
+package com.example.customerapp.model;
+
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class Customer {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long Id;
+	
+
+}

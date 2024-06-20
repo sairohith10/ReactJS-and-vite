@@ -1,0 +1,5 @@
+package com.example.customerapp.model;
+
+public class Facility {
+
+}

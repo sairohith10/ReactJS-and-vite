@@ -1,0 +1,15 @@
+package com.example.customerapp.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class Facility {
+   private boolean debitcard;
+   private boolean inbactivation;
+   private String intialPayment;
+   
+}
